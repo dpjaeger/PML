@@ -1,0 +1,11 @@
+---
+title: "PML_Project"
+author: "Daniel Jaeger"
+date: "8 November 2015"
+output: html_document
+---
+
+```{r}
+train <- read.csv('pml-training.csv')
+test <- read.csv('pml-testing.csv')
+```
